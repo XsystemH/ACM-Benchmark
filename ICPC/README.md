@@ -257,4 +257,4 @@ END
 
 你需要使用git进行版本管理和代码提交。比如，你的git仓库地址是 `Your_profile/Your_repo`，你只需要在OJ的相应页面中输入`https://github.com/Your_profile/Your_repo` 即可进行提交。
 
-**注意，你的`CMake`的目标可执行文件的名字应为 `code`。**
+OJ 将根据根目录下的 `CMakeLists.txt` 来构建你的程序。**注意，你的`CMake`的目标可执行文件的名字应为 `code`。**
