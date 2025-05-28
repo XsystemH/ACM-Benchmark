@@ -1,12 +1,5 @@
 # Basic Interpreter - 2023 动手指南
 
-#### deadline: 第 13 周 周一 (12.4) 18:30
-
-| 负责助教                                   |
-|----------------------------------------|
-| [@何彦衡](https://github.com/HenryHe0123) |
-| [@王冠杰](https://github.com/Irfnfnkemed) |
-
 ##  1. 前言
 
 BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实现这个语言中的一些功能，来完成一个 Minimal 版本的 BASIC 解释器。
