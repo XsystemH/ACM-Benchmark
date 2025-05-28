@@ -1,8 +1,8 @@
 # ACM-Benchmark
 
-| Project | Code Framework | Open Test Points | Hidden Test Points |
-|---------|----------------|------------------|--------------------|
-| Mine | ✅ | ✅ | ✅ |
+| Project | Code Framework | Open Test Points | Hidden Test Points | Evaluation Mode |
+|---------|----------------|------------------|--------------------|-----------------|
+| Mine | ✅ | ✅ | ✅ | Single header file |
 | ICPC | ❌ | ✅ | ✅ |
 | Basic | ✅ | ✅ | ❌ |
 | Python | ✅ | ✅ | ✅ |
