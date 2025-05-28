@@ -255,4 +255,6 @@ END
 
 ### 提交格式
 
-你需要提交一个完整的仓库，并使用`CMakeList`，目标程序名为`Code`。
+你需要使用git进行版本管理和代码提交。比如，你的git仓库地址是 `Your_profile/Your_repo`，你只需要在OJ的相应页面中输入`https://github.com/Your_profile/Your_repo` 即可进行提交。
+
+**注意，你的`CMake`的目标可执行文件的名字应为 `code`。**

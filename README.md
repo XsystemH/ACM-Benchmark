@@ -4,7 +4,7 @@
 |---------|----------------|------------------|--------------------|-----------------|
 | Mine | ✅ | ✅ | ✅ | Single Header File |
 | ICPC | ❌ | ✅ | ✅ | Hole Repository |
-| Basic | ✅ | ✅ | ❌ | 
+| Basic | ✅ | ✅ | ❌ | Hole Repository |
 | Python | ✅ | ✅ | ✅ |
 | Book | ❌ | ✅ | ✅ |
 | Ticket | ❌ | ✅ | ❌ |

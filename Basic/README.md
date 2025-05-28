@@ -4,18 +4,6 @@
 
 BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实现这个语言中的一些功能，来完成一个 Minimal 版本的 BASIC 解释器。
 
-**该解释器应具有的功能有：**
-
-- **立即解释**某些语句并运行
-- 执行特定控制语句
-- 按照**行数升序依次运行**的大程序
-
-**本次大作业的目标：**
-
-- 熟悉派生类的使用
-- 锻炼文档的阅读能力
-- 初步了解解释器的设计
-
 **关于评测：**
 
 我们进行基本的**鲁棒性检测**和**内存泄漏检测**，但是不进行性能检测，你只需要通过下发的数据点即可。
@@ -90,16 +78,7 @@ BASIC 是一门**解释性**编程语言，本次大作业要求你用 C++ 实�
 
 **注意：**
 
-这部分文件正常情况下你**不应修改**，如确信这部分文件有问题，请找出问题后向助教反馈。
-
-**学习方法：**
-
-`Basic/Utils/strlib.hpp` 和 `Basic/Utils/tokenScanner.hpp` 源于 StanfordCPPLib，是在 StanfordCPPLib 基础上进行过修改的版本，基本排除了由于编译器版本导致的问题，同时也基本修复了原代码的 memory leak 问题，使用方法与 StanfordCPPLib 中对应文件相同，请通过阅读文件中的注释，以及查阅官方文档 [The StanfordCPPLib package](https://cs.stanford.edu/people/eroberts/StanfordCPPLib/doc/index.html) 自行学习。
-
-一般来说，你只需要使用 `Basic/Utils/strlib.hpp` 和 `Basic/Utils/tokenScanner.hpp` 。当然，如果你愿意的话，也可以自己使用 StanfordCPPLib 的其它文件(但请务必在使用前仔细阅读说明，并检查是否会造成内存泄漏)。
-
-`error.hpp` 的使用请参考 [C++ 异常处理 - 菜鸟教程](https://www.runoob.com/cplusplus/cpp-exceptions-handling.html)。请务必熟悉代码中的异常处理方法，包括助教给出的代码。
-
+这部分文件正常情况下你**不应修改**。
 
 ### 2.3 本地评测方法
 
@@ -154,7 +133,7 @@ g++ -o score score.cpp
 
 ### 2.4 解释器实现步骤及待实现文件介绍
 
-注意：这是助教实现上的设计建议，你可以完全抛开现有框架自己实现，只需在 code review 时与助教说明即可。
+注意：这是实现上的设计建议，你可以完全抛开现有框架自己实现。
 
 **对于指令的介绍和要求详见 `Minimal BASIC Interpreter - 2023.pdf`**
 
@@ -217,12 +196,3 @@ END Hahaha  --> an invalid END command
 **注意，你的可执行文件的名字应为 `code`（如果你修改了Cmake，请务必保证可执行文件名仍为`code`）。**
 
 测评文件内容默认是 Test 文件夹下提供的文件。这些文件和 oj 中测评的数据点是相同的。在这些测试点下，你的程序需要输出与标程相同的结果。
-
-## 2.6 关于 code review
-
-- 请务必保证你完全清楚你在写什么，且**严禁抄袭**。
-
-
-## 2.7 修改日志
-
-- 2023/11/15 修复 `Basic/parser.cpp` 中无法读入带括号的负数的问题。
