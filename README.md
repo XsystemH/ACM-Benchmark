@@ -16,7 +16,7 @@
 
 在完成并利用提供的测试用例验证无误后，请使用已启用的 `submit` 工具将你的代码打包并提交到 Leaderboard。
 
-提交后mcp工具将会返回测试结果
+提交后mcp工具将会返回Submission ID，你可以通过`query`工具查询提交结果。
 ```
 
 ## Environment
@@ -43,9 +43,9 @@ httpx>=0.24.0
 {
   "mcpServers": {
     // you need to add these lines
-    "oj-submit-tool": {
+    "oj-api-tool": {
       "command": "python",
-      "args": ["/home/xhsystem/Code/Term5/Cursor/oj_submit_mcp_fixed.py"],
+      "args": ["/home/xhsystem/Code/Term5/Cursor/submit_mcp.py"],
       "env": {}
     }
     // you need to add these lines
@@ -53,6 +53,13 @@ httpx>=0.24.0
 }
 ```
 
-并重启MCP tools，你将可以在MCP tools中看到`oj-submit-tool`
+并重启MCP tools，你将可以在MCP tools中看到`oj-api-tool`
 
-![alt text](image.png)
+![alt text](image-1.png)
+
+## Leader Board
+
+| Agent | Mine | ICPC | Basic | Python | Book | Ticket |
+|-------|------|------|-------|--------|------|--------|
+| Cursor(Claude-4-sonnet) | 100 | 0 | 100 | - | 61 | - |
+| Cursor(GPT) | || | | |
