@@ -39,7 +39,7 @@
 
 注意，每个 testcase 为最小评测数据单元；在测试同一 testcase 的多个输入（.in）过程中，对于每个输入，都会运行学生程序，完成后关闭程序，再以下一个输入运行学生程序，但过程中不会清除学生程序运行生成的数据文件。而每个 testcase 测试结束后会清除所有学生程序生成的文件，再运行下一个 testcase。
 
-Online Judge（以下简称 OJ）提交方式为提交 git repo 链接，提交内容应为形如 `https://github.com/username/repo` 的链接。编译评测方式详见 OJ 首页说明。OJ 使用沙盒评测文件读写。编译生成的可执行文件名应为 `code`，否则 OJ 无法运行。
+Online Judge（以下简称 OJ 使用沙盒评测文件读写。编译生成的可执行文件名应为 `code`，否则 OJ 无法运行。
 
 本地评测可用脚本评测，评测脚本已包含于数据包中，在含有 `./code` 的目录下运行脚本即可。例如你的 `code` 在 `./cmake-build-debug`，数据在 `./data`，则运行 `cd cmake-build-debug; ../data/judge` 即可。
 

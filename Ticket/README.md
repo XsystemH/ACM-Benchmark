@@ -13,6 +13,10 @@ SJTU CS1951 课程大作业
 
 在第二部分中，需要实现一个火车票管理系统。此部分要求使用 Git 开发，维持良好的项目管理习惯。
 
+### 提交格式
+
+OJ 将根据根目录下的 `CMakeLists.txt` 来构建你的程序。**注意，你的`CMake`的目标可执行文件的名字应为 `code`。**
+
 ## B+ 树 - 7%
 
 ### 作业要求
@@ -21,9 +25,7 @@ SJTU CS1951 课程大作业
 
 iostream, string, cstdio, cmath, string, fstream, filesystem
 
-不允许使用这些头文件包含的 STL 容器 (如 `std::vector`) 或算法 (如 `std::sort`)。唯一的例外是，你可以使用 `std::string`。如果需要用到其他与算法、数据结构无关的标准库，请向助教提出请求。
-
-你需要在最后通过 [OJ 测试](https://acm.sjtu.edu.cn/OnlineJudge/problem/2186)。
+不允许使用这些头文件包含的 STL 容器 (如 `std::vector`) 或算法 (如 `std::sort`)。唯一的例外是，你可以使用 `std::string`。
 
 注意：建议使用类模板以方便后续完成管理系统。
 
@@ -45,7 +47,7 @@ iostream, string, cstdio, cmath, string, fstream, filesystem
 
   iostream, string, cstdio, cmath, string, fstream, filesystem
 
-  不允许使用这些头文件包含的 STL 容器 (如 `std::vector`) 或算法 (如 `std::sort`)。唯一的例外是，你可以使用 `std::string`。如果需要用到其他与算法、数据结构无关的标准库，请向助教提出请求。
+  不允许使用这些头文件包含的 STL 容器 (如 `std::vector`) 或算法 (如 `std::sort`)。唯一的例外是，你可以使用 `std::string`。
 
 ## 测试要求
 
